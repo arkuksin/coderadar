@@ -1,4 +1,6 @@
 machine:
+  environment:
+    GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx4096m -XX:+HeapDumpOnOutOfMemoryError"'
   java:
     version: oraclejdk8
   python:
